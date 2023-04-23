@@ -16,6 +16,429 @@
 </head>
 
 <body>
+  <p>
+    <a
+      href="home.html"
+      title="Home"
+    >Home
+    </a> *
+    <a
+      href="place-order.html"
+      title="Place Order"
+    ><b>Place Order</b>
+    </a> *
+    <a
+      href="customer-service.html"
+      title="Customer Service"
+    >Customer Service
+    </a> *
+    <a
+      href="contact.html"
+      title="Contact"
+    >Contact
+    </a>
+  </p>
+
+  <h1>Place Order</h1>
+  <p>This is the <b>guest checkout</b>, thank you for your order!</p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Aperiam quasi officiis labore consectetur quas, est nulla
+    adipisci enim dicta expedita modi voluptates animi ea laborum,
+    magnam ducimus beatae quae sit?
+  </p>
+  <h2>Products</h2>
+  <p>
+    <img
+      src="images/mouse.jpg"
+      alt="A black mouse"
+    >
+    <a
+      href="#"
+      title="Sterge"
+    >Sterge
+    </a>
+    <a
+      href="#"
+      title="Editeaza"
+    >Editeaza
+    </a>
+  </p>
+  <hr>
+  <p>
+    <img
+      src="images/extension_chord.jpg"
+      alt="A white extension chord to power up maximum 6 devices and an on/off button"
+    >
+    <a
+      href="#"
+      title="Sterge"
+    >Sterge
+    </a>
+    <a
+      href="#"
+      title="Editeaza"
+    >Editeaza
+    </a>
+  </p>
+  <hr>
+  <p>
+    <img
+      src="images/phone.jpg"
+      alt="a black phone with the display on showing 4:25 hour"
+    >
+    <a
+      href="#"
+      title="Sterge"
+    >Sterge
+    </a>
+    <a
+      href="#"
+      title="Editeaza"
+    >Editeaza
+    </a>
+  </p>
+  <hr>
+  <h2>Order Now</h2>
+  <p>
+    On our website <i>no account is needed</i>.
+  </p>
+  <ol>
+    <li>First we need some info about yourself. <b>Don’t forget to provide a phone.</b></li>
+    <li>Then we need your <i>real</i> shipping address.</li>
+    <li>Finally, your credit card information.</li>
+  </ol>
+  <form action="post">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="gender">Title</label>
+      <label for="male">Mr
+        <input
+          type="radio"
+          name="gender"
+          id="male"
+          value="male"
+          checked
+        >
+      </label>
+      <label for="female">Ms
+        <input
+          type="radio"
+          name="gender"
+          id="female"
+          value="female"
+        >
+      </label>
+      <label for="na">Unspecified
+        <input
+          type="radio"
+          name="gender"
+          id="na"
+          value="na"
+        ><br><br>
+      </label>
+      <label for="name">*Name:
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name"
+          required
+        >
+      </label><br><br>
+      <label for="surname">*Surname:
+        <input
+          type="text"
+          name="surname"
+          id="surname"
+          placeholder="Surname"
+          required
+        >
+      </label><br><br>
+      <label for="email">*Email:
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        >
+      </label><br><br>
+      <label for="phone">*Phone
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Phone"
+          required
+        >
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Address</legend>
+      <label for="address-name">*Name:
+        <input
+          type="text"
+          name="address-name"
+          id="address-name"
+          placeholder="Name"
+          required
+        >
+      </label><br><br>
+      <label for="address-surname">*Surname:
+        <input
+          type="text"
+          name="address-surname"
+          id="address-surname"
+          placeholder="Surname"
+          required
+        >
+      </label><br><br>
+      <label for="address-phone">*Phone
+        <input
+          type="tel"
+          name="address-phone"
+          id="address-phone"
+          placeholder="Phone"
+          required
+        >
+      </label><br><br>
+      <label for="address1">*Address Line 1:
+        <input
+          type="text"
+          name="address1"
+          id="address1"
+          placeholder="Address Line 1"
+          required
+        >
+      </label><br><br>
+      <label for="address2">*Address Line 2:
+        <input
+          type="text"
+          name="address2"
+          id="address2"
+          placeholder="Address Line 2"
+        >
+      </label><br><br>
+      <label for="city">*City:
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="City"
+          required
+        >
+      </label><br><br>
+      <label for="state">*State:
+        <select
+          id="state"
+          name="state"
+          required
+        >
+          <option value="">--State--</option>
+          <option value="alabama">Alabama</option>
+          <option value="alaska">Alaska</option>
+          <option value="arizona">Arizona</option>
+          <option value="arkansas">Arkansas</option>
+          <option value="california">California</option>
+          <option value="colorado">Colorado</option>
+          <option value="connecticut">Connecticut</option>
+          <option value="delaware">Delaware</option>
+          <option value="florida">Florida</option>
+          <option value="georgia">Georgia</option>
+          <option value="hawaii">Hawaii</option>
+          <option value="idaho">Idaho</option>
+          <option value="illinois">Illinois</option>
+          <option value="indiana">Indiana</option>
+          <option value="iowa">Iowa</option>
+          <option value="kansas">Kansas</option>
+          <option value="kentucky">Kentucky</option>
+          <option value="louisiana">Louisiana</option>
+          <option value="maine">Maine</option>
+          <option value="maryland">Maryland</option>
+          <option value="massachusetts">Massachusetts</option>
+          <option value="michigan">Michigan</option>
+          <option value="minnesota">Minnesota</option>
+          <option value="mississippi">Mississippi</option>
+          <option value="missouri">Missouri</option>
+          <option value="montana">Montana</option>
+          <option value="nebraska">Nebraska</option>
+          <option value="nevada">Nevada</option>
+          <option value="new_hampshire">New Hampshire</option>
+          <option value="new_jersey">New Jersey</option>
+          <option value="new_mexico">New Mexico</option>
+          <option value="new_york">New York</option>
+          <option value="north_carolina">North Carolina</option>
+          <option value="north_dakota">North Dakota</option>
+          <option value="ohio">Ohio</option>
+          <option value="oklahoma">Oklahoma</option>
+          <option value="oregon">Oregon</option>
+          <option value="pennsylvania">Pennsylvania</option>
+          <option value="rhode_island">Rhode Island</option>
+          <option value="south_carolina">South Carolina</option>
+          <option value="south_dakota">South Dakota</option>
+          <option value="tennessee">Tennessee</option>
+          <option value="texas">Texas</option>
+          <option value="utah">Utah</option>
+          <option value="vermont">Vermont</option>
+          <option value="virginia">Virginia</option>
+          <option value="washington">Washington</option>
+          <option value="west_virginia">West Virginia</option>
+          <option value="wisconsin">Wisconsin</option>
+          <option value="wyoming">Wyoming</option>
+
+        </select>
+      </label><br><br>
+      <label for="postcode">*Postcode
+        <input
+          type="text"
+          name="postcode"
+          id="postcode"
+          placeholder="Postcode"
+          required
+        >
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Card Information</legend>
+      <label for="card-number">*Card number
+        <input
+          type="text"
+          name="card-number"
+          id="card-number"
+          placeholder="Card Number"
+          required
+        >
+      </label><br><br>
+      <label for="card-name">*Name on card
+        <input
+          type="text"
+          name="card-name"
+          id="card-name"
+          placeholder="Name on card"
+          required
+        >
+      </label><br><br>
+      <label for="card-expiry-month">*Expiry Month
+        <select
+          name="card-expiry-month"
+          id="card-expiry-month"
+          required
+        >
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="july">July</option>
+          <option value="august">August</option>
+          <option value="september">September</option>
+          <option value="october">October</option>
+          <option value="november">November</option>
+          <option value="december">December</option>
+        </select>
+      </label>
+      <label for="card-expiry-year">*Expiry Year
+        <select
+          name="card-expiry-year"
+          id="card-expiry-year"
+          required
+        >
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+          <option value="2029">2029</option>
+        </select>
+      </label><br><br>
+      <label for="card-cvv">*CVV
+        <input
+          type="text"
+          name="card-cvv"
+          id="card-cvv"
+          placeholder="CVV"
+          required
+        >
+      </label><br>
+      <p><i>We do not store credit card information!</i></p>
+    </fieldset>
+    <fieldset>
+      <legend>Form Controls</legend>
+      <label for="terms">
+        <input
+          type="checkbox"
+          name="terms"
+          id="terms"
+          required
+        >*You are required to agree to the
+        <a
+          href="terms.html"
+          title="terms and conditions"
+        >terms and conditions
+        </a>
+      </label><br>
+      <label for="subscribe">
+        <input
+          type="checkbox"
+          name="subscribe"
+          id="subscribe"
+        >Can we send you emails?
+      </label><br>
+      <label for="gdpr-consent">
+        <input
+          type="checkbox"
+          name="gdpr-consent"
+          id="gdpr-consent"
+        >GDPR generic consent?
+      </label><br>
+      <button
+        id="submit"
+        name="submit"
+      >PLACE ORDER
+      </button>
+      <button
+        id="reset"
+        type="reset"
+        name="reset"
+      >Reset
+      </button>
+    </fieldset>
+  </form>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    Sunt molestiae amet aperiam quo, praesentium minima et nam
+    veniam numquam ratione perspiciatis harum eligendi,
+    ullam quas dignissimos reprehenderit deserunt laborum enim!
+  </p>
+  <p>
+    <a
+      href="home.html"
+      title="Home"
+    >Home
+    </a> *
+    <a
+      href="place-order.html"
+      title="Place Order"
+    ><b>Place Order</b>
+    </a> *
+    <a
+      href="customer-service.html"
+      title="Customer Service"
+    >Customer Service
+    </a> *
+    <a
+      href="contact.html"
+      title="Contact"
+    >Contact
+    </a>
+  </p>
 
 
   <div
