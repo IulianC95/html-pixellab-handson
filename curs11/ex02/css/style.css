@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  width: 1000px;
+  height: 1500px;
+}
+h1 {
+  font-weight: normal;
+  margin-left: 13%;
+  margin-top: 8%;
+}
+
+.my-class1 p {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.my-class2 p {
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 30px;
+}
+
+.my-class3 h2 {
+  margin-left: 15%;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: larger;
+  color: #1F1F1F;
+}
+
+.my-class4 {
+  margin-top: -36px;
+}
+
+.my-class4 h2 {
+  margin-left: 55%;
+  font-weight: 500;
+  font-size: large;
+}
+
+.my-class4 p {
+  margin-left: 55%;
+  font-size: small;
+  margin-top: 30px;
+}
+
+.my-first-list a {
+  display: block;
+}
+
+.email {
+  margin-left: 15%;
+  margin-top: -110px;
+  font-size: x-small;
+}
+
+input[type="text"] {
+  font-size: 10px;
+  padding-bottom: 4px;
+  margin-left: 26%;
+  margin-top: 20px;
+}
+
+input[type="password"] {
+  font-size: 10px;
+  padding-bottom: 4px;
+  margin-left: 23.8%;
+  margin-top: -29px;
+}
+
+input[type="checkbox"] {
+  font-size: 10px;
+  padding-bottom: 4px;
+  margin-left: 30%;
+  margin-top: 5px;
+}
+
+.email label:last-of-type {
+  position: absolute;
+  margin-top: 7px;
+}
+
+.button {
+  color: white;
+  background-color: #007BFF;
+  padding-left: 9px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-right: 9px;
+  border-radius: 4px;
+  border: none;
+}
