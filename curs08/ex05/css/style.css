@@ -1,4 +1,56 @@
-.container {
-  border: 1px solid #000; 
-  padding: 5px;
+body {
+  padding: 1.5%;
 }
+
+.container {
+  border: 1px solid #000;
+  padding: 5px;
+  position: relative;
+}
+
+.nav-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: blue;
+  color: brown;
+  z-index: 1;
+}
+
+.nav-bottom a {
+  color: brown;
+}
+
+.legend {
+  position: absolute;
+  background-color: grey;
+  border: 1px solid red;
+  top: -5px;
+}
+
+.sup {
+  font-size: relative;
+  position: relative;
+  top: -3px;
+}
+
+.nav-top {
+  background-color: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.section-title {
+  background-color: green;
+  position: sticky;
+  top: 8px;
+  offset: 8px;
+  text-align: center;
+  color: white;
+  padding: 8px;
+}
+/* nu i-am dat de cap aici la section-title, in pagina imi arata corect,
+dar imi tot zice ca trebuie sa adaug fundal verde
+( in ex din powerpoint zice albastru, am incercat si cu albastru si degeaba ) */
