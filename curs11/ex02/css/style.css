@@ -91,3 +91,7 @@ input[type="checkbox"] {
   border-radius: 4px;
   border: none;
 }
+
+.button:hover {
+  background-color: #89d0ff;
+}

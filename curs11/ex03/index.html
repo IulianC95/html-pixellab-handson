@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Curs 11 ex 02</title>
+  <link
+    rel="stylesheet"
+    href="./node_modules/bootstrap/dist/css/bootstrap.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+
+
+</head>
+
+<body>
+  <nav class="nav-bar1">
+    <p>
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Home
+      </a>*
+      <a
+        class="active"
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Place Order
+      </a>*
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Customer Service
+      </a>*
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Contact
+      </a>
+    </p>
+  </nav><br>
+
+  <h1>Place Order</h1>
+
+  <div class="my-class1">
+    <p>
+      This is the <b>guest checkout</b>
+    </p><br>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div><br>
+
+  <h2>Order Now</h2>
+
+  <div class="my-class2">
+    <p>
+      On our website <em>no account is needed</em>.
+    </p>
+    <ol>
+      <li>
+        First we need some info about yourself.
+        <b>Don’t forget to provide a phone</b>.
+      </li>
+      <li>
+        Then we need your <i>real</i> shipping address.
+      </li>
+      <li>
+        Finally, your credit card information.
+      </li>
+    </ol>
+  </div><br>
+  <form>
+    <div class="container1">
+
+      <h3>Personal Information</h3>
+      <div class="title-1">
+        <label for="">Title:</label>
+        <label for="male">Mr</label>
+        <input
+          class="form-check-input"
+          type="radio"
+          name="gender"
+          id="male"
+          checked
+        >
+        <label for="female">Ms</label>
+        <input
+          class="form-check-input"
+          type="radio"
+          name="gender"
+          id="female"
+        >
+        <label for="na">Unspecified</label>
+        <input
+          class="form-check-input"
+          type="radio"
+          name="gender"
+          id="na"
+        ><br>
+        <label for="name">*Name:</label>
+        <input
+          class="form-control"
+          type="text"
+          name="name"
+          id="input-name1"
+          placeholder="Name"
+          required
+        >
+        <label for="surname">*Surname:</label>
+        <input
+          class="form-control"
+          type="text"
+          name="surname"
+          id="input-name2"
+          placeholder="Surname"
+          required
+        >
+        <label for="email">*Email:</label>
+        <input
+          class="form-control"
+          type="text"
+          name="email"
+          id="input-email"
+          placeholder="Email"
+          required
+        >
+        <label for="phone">*Phone:</label>
+        <input
+          class="form-control"
+          type="tel"
+          name="phone"
+          id="input-phone"
+          placeholder="Phone"
+          required
+        >
+      </div>
+    </div>
+    <div class="container2">
+      <div>
+        <h3>Address</h3>
+        <div class="title-1">
+          <label for="name">*Name:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="name"
+            id="input-name1"
+            placeholder="Name"
+            required
+          >
+          <label for="surname">*Surname:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="surname"
+            id="input-name2"
+            placeholder="Surname"
+            required
+          >
+          <label for="phone">*Phone:</label>
+          <input
+            class="form-control"
+            type="tel"
+            name="phone"
+            id="input-phone"
+            placeholder="Phone"
+            required
+          >
+          <label for="address1">*Address1:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="address1"
+            id="address1"
+            placeholder="Address Line 1"
+            required
+          >
+          <label for="address2">Address2:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="address2"
+            id="address2"
+            placeholder="Address Line 2"
+          >
+          <label for="city">*City:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="city"
+            id="city1"
+            placeholder="City"
+            required
+          >
+          <label for="state">*State:</label>
+          <select
+            class="form-select"
+            name="state"
+            id="state1"
+          >
+            <option value="">--State--</option>
+            <option value="newYork">New York</option>
+            <option value="miami">Miami</option>
+            <option value="texas">Texas</option>
+          </select>
+          <label for="postcode">*Postcode:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="postcode"
+            id="postcode1"
+            placeholder="Postcode"
+            required
+          >
+        </div>
+      </div>
+
+      <div class="container3">
+        <h3>Card Information</h3>
+        <div class="title-1">
+          <label for="number">*Number:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="number"
+            id="card-number"
+            placeholder="Card Number"
+            required
+          >
+          <label for="card-name">*Name:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="card-name"
+            id="card-name"
+            placeholder="Name on card"
+            required
+          >
+          <label for="month">*Month:</label>
+          <select
+            class="form-select"
+            name="month"
+            id="card-month"
+          >
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+          </select>
+          <label for="year">*Year:</label>
+          <select
+            class="form-select"
+            name="year"
+            id="card-year"
+          >
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+          </select>
+          <label for="cvv">*CVV:</label>
+          <input
+            class="form-control"
+            type="text"
+            name="cvv"
+            id="card-cvv1"
+            placeholder="CVV"
+            required
+          >
+          <p><em>We do not store credit card information!</em></p>
+        </div>
+      </div>
+      <div class="container4">
+        <h3>Form Controls</h3>
+        <input
+          type="checkbox"
+          class="form-check-input"
+          name="terms"
+          required
+        >
+        <label for="terms">
+          <p>*You are required to confirm the
+            <a href="/">terms and conditions</a>.
+          </p>
+        </label><br>
+        <input
+          type="checkbox"
+          class="form-check-input"
+          name="newsletter"
+          checked
+          required
+        >
+        <label for="newsletter">
+          <p>
+            Agree to this and <em>we will send you emails</em>.
+          </p>
+        </label><br>
+        <input
+          type="checkbox"
+          class="form-check-input"
+          name="gdpr"
+          required
+        >
+        <label for="gdpr">
+          <p>
+            GDPR Generic Consent?
+          </p>
+        </label><br>
+        <button
+          class="btn btn-primary"
+          type="submit"
+        >PLACE ORDER</button>
+        <button
+          class="btn btn-secondary"
+          type="reset"
+        >RESET</button>
+      </div>
+  </form>
+  </div><br><br>
+  <div class="container5">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt
+      in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <nav class="nav-bar2">
+      <p>
+        <a
+          href="https://www.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Home
+        </a>*
+        <a
+          class="active"
+          href="https://www.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Place Order
+        </a>*
+        <a
+          href="https://www.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Customer Service
+        </a>*
+        <a
+          href="https://www.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Contact
+        </a>
+      </p>
+    </nav>
+  </div>
+
+</body>
+
+</html>
