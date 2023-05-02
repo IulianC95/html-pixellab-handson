@@ -1,165 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curs 07 Ex 02</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-  <title>Curs 07 Ex 02</title>
+    <link rel="stylesheet" href="https://tab.pixellab.ro/pixeltab.css" />
 
-  <link
-    rel="stylesheet"
-    href="https://tab.pixellab.ro/pixeltab.css"
-  >
-  <style>
-    a {
-      color: green;
-    }
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-    p span i {
-      color: red;
-    }
+  <body>
+    <h1>The Internet</h1>
 
-    .line {
-      text-decoration: underline;
-    }
+    <h2>Google</h2>
+    <h3>Details</h3>
+    <p class="desc odd">
+      Google LLC <span><i>is</i></span> an American multinational technology
+      company that specializes in Internet-related services and products, which
+      include online advertising technologies, search engine, cloud computing,
+      software,
+      <span><b>and</b></span>
+      hardware. It
+      <span><i>is</i></span> considered one of the Big Four technology
+      companies, alongside Amazon, Apple
+      <span><b>and</b></span>
+      Facebook.
+    </p>
+    <h3>Links</h3>
 
-    .links a {
-      text-decoration: none;
-    }
+    <p class="links">
+      <a href="http://en.wikipedia.org/wiki/Google"
+        >https://en.wikipedia.org/wiki/Google</a
+      >
+      <br />
+      <a href="https://www.google.com">https://www.google.com</a>
+    </p>
 
-    p .line {
-      color: grey;
-    }
+    <h2 class="line">Twitter</h2>
+    <h3>Details</h3>
+    <p class="desc even">
+      Twitter <span><i>is</i></span> a microblogging
+      <span><b>and</b></span> social networking service on which users post
+      <span><b>and</b></span>
+      interact with messages known as "tweets". Tweets were originally
+      restricted to 140 characters, but on November 7, 2017, this limit was
+      doubled to 280 for all languages except Chinese, Japanese,
+      <span><b>and</b></span> Korean. Registered users can post, like,
+      <span><b>and</b></span>
+      retweet tweets, but unregistered users can only read them. Users access
+      Twitter through its website interface, through Short Message Service (SMS)
+      or its mobile-device application software ("app"). Twitter, Inc.
+      <span><i>is</i></span> based in San Francisco, California,
+      <span><b>and</b></span> has more than 25 offices around the world.
+    </p>
+    <h3>Links</h3>
+    <p class="links">
+      <a href="http://en.wikipedia.org/wiki/Twitter"
+        >https://en.wikipedia.org/wiki/Twitter</a
+      >
+      <br />
+      <a href="http://twitter.com">https://twitter.com</a>
+    </p>
 
-    p span b {
-      color: purple;
-    }
+    <h2>Facebook</h2>
+    <h3>Details</h3>
+    <p class="desc odd">
+      Facebook, Inc. <span><i>is</i></span> an American online social media
+      <span><b>and</b></span> social networking service company based in Menlo
+      Park, California. It was founded by
+      <span class="line">Mark Zuckerberg</span>, along with fellow
+      <span class="line">Harvard College</span> students
+      <span><b>and</b></span> roommates Eduardo Saverin, Andrew McCollum, Dustin
+      Moskovitz <span><b>and</b></span> Chris Hughes. It
+      <span><i>is</i></span> considered one of the Big Four technology companies
+      along with Amazon, Apple, <span><b>and</b></span> Google.
+    </p>
+    <h3 class="line">Links</h3>
+    <p class="links">
+      <a href="http://en.wikipedia.org/wiki/Facebook"
+        >https://en.wikipedia.org/wiki/Facebook</a
+      >
+      <br />
+      <a href="https://www.facebook.com">https://www.facebook.com</a>
+    </p>
 
-    .odd .line {
-      color: blue;
-    }
+    <h2 class="line">Bing</h2>
+    <h3>Details</h3>
+    <p class="desc even">
+      Bing <span><i>is</i></span> a web search engine owned
+      <span><b>and</b></span> operated by Microsoft. The service has its origins
+      in Microsoft's previous search engines: MSN Search, Windows
+      <span class="line">Live Search</span> <span><b>and</b></span> later
+      <span class="line">Live Search</span>. Bing provides a variety of search
+      services, including web, video, image <span><b>and</b></span> map search
+      products. It <span><i>is</i></span> developed using ASP.NET.
+    </p>
+    <h3>Links</h3>
+    <p class="links">
+      <a href="https://en.wikipedia.org/wiki/Bing_(search_engine)"
+        >https://en.wikipedia.org/wiki/Bing_(search_engine)</a
+      >
+      <br />
+      <a href="http://www.bing.com">https://www.bing.com</a>
+    </p>
 
-    .odd i {
-      text-decoration: underline;
-    }
-
-    .even b {
-      text-decoration: underline;
-    }
-
-    a[href^="http://"] {
-      color: red;
-    }
-
-    a[href$=".com"] {
-      color: black;
-      text-decoration: none;
-    }
-
-  </style>
-</head>
-
-<body>
-  <h1>The Internet</h1>
-
-  <h2>Google</h2>
-  <h3>Details</h3>
-  <p class="desc odd">
-    Google LLC <span><i>is</i></span> an American multinational technology company that specializes in Internet-related
-    services
-    and
-    products, which include online advertising technologies, search engine, cloud computing, software,
-    <span><b>and</b></span>
-    hardware. It
-    <span><i>is</i></span> considered one of the Big Four technology companies, alongside Amazon, Apple
-    <span><b>and</b></span>
-    Facebook.
-  </p>
-  <h3>Links</h3>
-
-  <p class="links">
-    <a href="http://en.wikipedia.org/wiki/Google">https://en.wikipedia.org/wiki/Google</a> <br>
-    <a href="https://www.google.com">https://www.google.com</a>
-  </p>
-
-  <h2 class="line">Twitter</h2>
-  <h3>Details</h3>
-  <p class="desc even">
-    Twitter <span><i>is</i></span> a microblogging <span><b>and</b></span> social networking service on which users post
-    <span><b>and</b></span>
-    interact
-    with
-    messages known as
-    "tweets". Tweets were originally restricted to 140 characters, but on November 7, 2017, this limit was doubled
-    to
-    280 for all languages except Chinese, Japanese, <span><b>and</b></span> Korean. Registered users can post, like,
-    <span><b>and</b></span>
-    retweet tweets,
-    but unregistered users can only read them. Users access Twitter through its website interface, through Short
-    Message Service (SMS) or its mobile-device application software ("app"). Twitter, Inc. <span><i>is</i></span> based
-    in
-    San
-    Francisco,
-    California, <span><b>and</b></span> has more than 25 offices around the world.
-  </p>
-  <h3>Links</h3>
-  <p class="links">
-    <a href="http://en.wikipedia.org/wiki/Twitter">https://en.wikipedia.org/wiki/Twitter</a> <br>
-    <a href="http://twitter.com">https://twitter.com</a>
-  </p>
-
-  <h2>Facebook</h2>
-  <h3>Details</h3>
-  <p class="desc odd">
-    Facebook, Inc. <span><i>is</i></span> an American online social media <span><b>and</b></span> social networking
-    service company
-    based in
-    Menlo
-    Park,
-    California. It was founded by <span class="line">Mark Zuckerberg</span>, along with fellow <span
-      class="line">Harvard College</span> students <span><b>and</b></span> roommates Eduardo
-    Saverin, Andrew McCollum, Dustin Moskovitz <span><b>and</b></span> Chris Hughes. It <span><i>is</i></span>
-    considered one of the
-    Big
-    Four
-    technology
-    companies along with Amazon, Apple, <span><b>and</b></span> Google.
-  </p>
-  <h3 class="line">Links</h3>
-  <p class="links">
-    <a href="http://en.wikipedia.org/wiki/Facebook">https://en.wikipedia.org/wiki/Facebook</a> <br>
-    <a href="https://www.facebook.com">https://www.facebook.com</a>
-  </p>
-
-  <h2 class="line">Bing</h2>
-  <h3>Details</h3>
-  <p class="desc even">
-    Bing <span><i>is</i></span> a web search engine owned <span><b>and</b></span> operated by Microsoft. The service has
-    its origins
-    in
-    Microsoft's previous
-    search engines: MSN Search, Windows <span class="line">Live Search</span> <span><b>and</b></span> later <span
-      class="line"
-    >Live
-      Search</span>. Bing provides a variety of search services,
-    including web, video, image <span><b>and</b></span> map search products. It <span><i>is</i></span> developed using
-    ASP.NET.
-  </p>
-  <h3>Links</h3>
-  <p class="links">
-    <a href="https://en.wikipedia.org/wiki/Bing_(search_engine)">https://en.wikipedia.org/wiki/Bing_(search_engine)</a>
-    <br>
-    <a href="http://www.bing.com">https://www.bing.com</a>
-  </p>
-
-  <div
-    class="pixeltab-host"
-    id="html01-07-02"
-  ></div>
-  <script src="https://tab.pixellab.ro/static/js/pixeltab.js"></script>
-</body>
-
+    <div class="pixeltab-host" id="html01-07-02"></div>
+    <script src="https://tab.pixellab.ro/static/js/pixeltab.js"></script>
+  </body>
 </html>

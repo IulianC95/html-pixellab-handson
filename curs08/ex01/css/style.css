@@ -9,7 +9,7 @@ p {
 
 ol a {
   color: green;
-  text-decoration: line-through blue;
+  text-decoration: line-through solid blue;
 }
 
 h2 {
@@ -23,8 +23,8 @@ h3 {
 }
 
 ul li {
-text-decoration: underline;
-color: purple;
+  text-decoration: underline;
+  color: purple;
 }
 
 p b {
@@ -33,7 +33,7 @@ p b {
 }
 
 p i {
-color: blue;
-font-weight: bold;
-text-decoration: line-through;
+  color: blue;
+  font-weight: bold;
+  text-decoration: line-through;
 }
