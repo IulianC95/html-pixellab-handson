@@ -34,6 +34,7 @@
   position: absolute;
   background-color: grey;
   border: 1px solid red;
+  top: -8px;
 }
 
 .nav-bottom {
