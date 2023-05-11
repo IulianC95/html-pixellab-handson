@@ -1,6 +1,6 @@
 .pane-short .heading {
   text-decoration: underline solid red;
-  padding: 10px 11px 10px 11px;
+  padding: 10px 11px;
   border: 1px dashed green;
 }
 
@@ -30,6 +30,6 @@
   padding: 2px 4px 5px 9px;
 }
 
-.pane-short .list li{
+.pane-short .list li {
   text-decoration: line-through double brown;
 }

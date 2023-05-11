@@ -50,6 +50,7 @@ body {
   text-align: center;
   color: white;
   padding: 8px;
+  z-index: 1;
 }
 /* nu i-am dat de cap aici la section-title, in pagina imi arata corect,
 dar imi tot zice ca trebuie sa adaug fundal verde
