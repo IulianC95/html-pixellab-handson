@@ -1,35 +1,31 @@
 /* add code here */
+.header.header h1 {
+  color: green;
+  text-decoration: underline green;
+  padding: 5px;
+}
 
-
+p.para {
+  font-size: 25px;
+  font-style: italic;
+  color: purple;
+}
 
 /* add code here */
 
-
 h1 {
- color: red;
+  color: red;
 }
 
 .header h1 {
   color: blue;
 }
 
-#header h1 {
-  color: green;
-  text-decoration: underline green;
-  padding: 5px;
-}
-
 p {
   text-decoration: underline;
 }
 
-#container p {
-  font-size: 25px;
-  font-style: italic;
-  color: purple;
-}
-
 .para {
   text-decoration: none;
-  color: blueviolet
+  color: blueviolet;
 }
