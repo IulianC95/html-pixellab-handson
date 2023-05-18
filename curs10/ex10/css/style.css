@@ -3,14 +3,14 @@ body {
 }
 
 a {
- color: inherit;
+  color: inherit;
 }
 
-ul {
+.list {
   list-style-type: none;
 }
 
-ul ul {
+.list ul {
   list-style-type: inherit;
 }
 
