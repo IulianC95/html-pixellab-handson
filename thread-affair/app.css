@@ -453,19 +453,112 @@ a {
 
 /* homepage */
 
-.content-main section header {
+.banner-main {
+  background: #000 url('../thread-affair/images/banners/banner-01.jpg')
+    no-repeat center center / cover;
+  height: 572px;
+  color: #fff;
+  margin-bottom: 96px;
+}
+
+.banner-main .banner-main-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-left: 50px;
+  position: relative;
+}
+
+.banner-main .banner-copy {
+  position: absolute;
+  bottom: 18px;
+  left: 50px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.banner-main .banner-main-inner h1 {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+.banner-main .banner-main-inner h2 {
+  font-size: 42px;
+  font-weight: 100;
+  margin-bottom: 42px;
+}
+
+.banner-main .banner-cta {
+  background-color: transparent;
+  border: 3px solid #ff6b6b;
+  cursor: pointer;
+  border-radius: 38px;
+  padding: 27px 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ff6b6b;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.banner-main .banner-cta:hover {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.content-main > section {
+  margin-bottom: 64px;
+}
+
+.content-main > section > header {
   font-weight: 300;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.content-main section header h1 {
+.content-main > section > header > h1 {
   font-size: 40px;
   color: #292929;
 }
 
-.content-main section header h1 span {
+.content-main > section > header > h1 span {
   font-weight: 700;
+}
+
+.content-main > section > header > p {
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.catalog-preview .product-tiles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.catalog-preview .catalog-ctas {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.home-social ul {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  color: #5e5e5e;
+  font-size: 24px;
+}
+
+.home-social a {
+  border: 3px solid #5e5e5e;
+  display: inline-flex;
+  border-radius: 50px;
+  width: 64px;
+  aspect-ratio: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-payment ul {
@@ -478,3 +571,77 @@ a {
 }
 
 /* /homepage */
+
+/* catalog */
+
+.product-tile {
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+}
+
+.product-tile .product-tile-header {
+  margin-bottom: 18px;
+}
+
+.product-tile .product-tile-image {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.product-tile .product-tile-image img {
+  width: 100%;
+}
+
+.product-tile .product-tile-title {
+  font-size: 24px;
+}
+
+.product-tile .product-tile-title span {
+  font-weight: 700;
+}
+
+.product-tile .product-tile-title span:nth-child(1) {
+  color: #000;
+}
+
+.product-tile .product-tile-subtitle {
+  line-height: 22px;
+}
+
+.product-tile .product-tile-pricing {
+  line-height: 29px;
+  margin-bottom: 18px;
+}
+
+.product-tile .product-catalog-price {
+  display: block;
+  text-decoration: line-through;
+}
+
+.product-tile .product-price {
+  font-size: 24px;
+}
+
+.product-tile .product-price span {
+  color: #ff6b6b;
+  font-weight: 700;
+}
+
+.product-tile .product-a2c {
+  background-color: transparent;
+  border: 3px solid #ff6b6b;
+  cursor: pointer;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ff6b6b;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.product-tile .product-a2c:hover {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+/* /catalog */

@@ -10,7 +10,7 @@
   "javascript.format.semicolons": "insert",
   "prettier.trailingComma": "all",
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
