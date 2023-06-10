@@ -14,56 +14,702 @@
   <title>Monochrome</title>
 
   <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
     rel="stylesheet"
     href="app.css"
   >
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <section class="header-secondary">
       <div class="header-secondary-inner container">
-        <div class="header-connect"></div>
+        <div class="header-connect">
+          <ul>
+            <a
+              href=""
+              title=""
+            >
+              <img
+                src="img/youtube.svg"
+                alt=""
+                class="svg-button"
+              />
+            </a>
+            <a
+              href=""
+              title=""
+            >
+              <img
+                src="img/twitter.svg"
+                alt=""
+                class="svg-button"
+              />
+            </a>
+            <a
+              href=""
+              title=""
+            >
+              <img
+                src="img/facebook.svg"
+                alt=""
+                class="svg-button"
+              />
+            </a>
+            <a
+              href=""
+              title=""
+            >
+              <img
+                src="img/instagram.svg"
+                alt=""
+                class="svg-button"
+              />
+            </a>
+            <p class="contact social">CALL US +44 (0)10 2345 6789</p>
+          </ul>
+
+        </div>
         <!-- ./header-connect -->
 
-        <div class="header-controls"></div>
+        <div class="header-controls">
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon-search"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+
+
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search"
+          />
+          <ul>
+            <a
+              href=""
+              title=""
+            >
+              <img
+                src="img/user.svg"
+                alt=""
+                class="header-controls-btn"
+              />
+            </a>
+            <a
+              href=""
+              title=""
+            >
+              <img
+                src="img/heart.svg"
+                alt=""
+                class="header-controls-btn"
+              />
+            </a>
+            <a
+              href=""
+              title=""
+            >
+              <img
+                src="img/cart.svg"
+                alt=""
+                class="header-controls-btn"
+              />
+            </a>
+          </ul>
+        </div>
         <!-- ./header-control -->
       </div>
       <!-- ./header-secondary-inner -->
     </section>
     <!-- ./header-secondary -->
-    <section class="header-primary"></section>
+    <section class="header-primary">
+      <ul class="container">
+        <li>
+          <a
+            href=""
+            title="home"
+          >New arivals</a>
+        </li>
+        <li>
+          <a
+            href=""
+            title="about"
+          >Brands</a>
+        </li>
+        <li>
+          <a
+            href=""
+            title="shop"
+          >Men's</a>
+        </li>
+        <li>
+          <a
+            href=""
+            title="contact"
+          >Women's</a>
+        </li>
+        <li>
+          <a
+            href=""
+            title="contact"
+          >Accessories</a>
+        </li>
+        <li>
+          <a
+            href=""
+            title="contact"
+          >Lookbook</a>
+        </li>
+      </ul>
+    </section>
     <!-- ./header-primary -->
   </header>
   <!-- ./header -->
 
   <main>
-    <div class="home-catalog-preview container"></div>
+    <div class="home-catalog-preview container">
+
+      <hr class="new1" />
+      <h2>New Stuff</h2>
+
+      <section class="home-catalog-products">
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch5.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+
+
+
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch1.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch2.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch3.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+      </section>
+
+    </div>
     <!-- ./home-catalog-preview -->
 
-    <div class="home-catalog-preview container"></div>
+    <div class="home-catalog-preview container">
+
+      <hr class="new1" />
+      <h2>Most Loved</h2>
+
+      <section class="home-catalog-products">
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch3.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+
+
+
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch5.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch2.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch4.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+      </section>
+
+    </div>
     <!-- ./home-catalog-preview -->
 
-    <div class="home-content">
+    <div class="home-content container">
 
-      <aside></aside>
+      <aside><img
+          src="img/img1.png"
+          alt=""
+        /></aside>
 
-      <section></section>
+      <section class="story">
+        <h2>Watches for entrepreneurs</h2>
+
+        <p>
+          But I must explain to you how all this mistaken idea of denouncing
+          pleasure and praising pain was born and I will give you a complete
+          account of the system, and expound the actual teachings of the great
+          explorer of the truth, the master-builder of human happiness. No one
+          rejects, dislikes, or avoids pleasure itself, because.
+        </p>
+
+
+        <p>
+          But I must explain to you how all this mistaken idea of denouncing
+          pleasure and praising pain was born and I will give you a complete
+          account of the system, and expound the actual teachings of the great
+          explorer of the truth, the master-builder of human happiness. No one
+          rejects, dislikes, or avoids pleasure itself, because.
+        </p>
+
+      </section>
     </div>
     <!-- ./home-content -->
 
     <div class="home-catalog-preview container">
 
-      <div class="catalog-ctas"></div>
-      <!-- ./catalog-ctas -->
+      <hr class="new1" />
+      <h2 class="mens">Men's</h2>
+
+      <section class="home-catalog-products">
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch4.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+
+
+
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch2.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch6.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch5.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+      </section>
+
+      <div class="catalog-ctas">
+        <button>
+          view all
+        </button>
+      </div>
 
     </div>
     <!-- ./home-catalog-preview -->
 
     <div class="home-catalog-preview container">
 
-      <div class="catalog-ctas"></div>
-      <!-- ./catalog-ctas -->
+      <hr class="new1" />
+      <h2 class="mens">Women's</h2>
+
+      <section class="home-catalog-products">
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch3.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+
+
+
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch5.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch1.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+        <picture>
+          <a
+            href="product.html"
+            class="image-link"
+          >
+            <img
+              src="img/watch8.png"
+              alt=""
+            />
+            <button class="heart-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="currentColor"
+                class="bi bi-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                />
+              </svg>
+            </button>
+          </a>
+          <h3>MONOCHROME</h3>
+          <p>$425</p>
+        </picture>
+      </section>
+
+      <div class="catalog-ctas">
+        <button>
+          view all
+        </button>
+      </div>
 
     </div>
     <!-- ./home-catalog-preview -->

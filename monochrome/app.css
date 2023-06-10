@@ -260,6 +260,10 @@ body {
   font-family: 'Playfair Display', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   margin: 0 auto;
   width: 100%;
@@ -267,9 +271,249 @@ body {
 }
 
 /* header */
+
+.header {
+  background: #000 url('../monochrome/img/banner.png') no-repeat center center /
+    cover;
+  height: 500px;
+}
+
+.header-secondary-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-left: 421px;
+  margin-bottom: 368px;
+}
+
+.header-connect {
+  margin-left: 120px;
+}
+
+.header-connect ul {
+  display: grid;
+  grid-template-columns: repeat(4, 30px) 1fr;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+  gap: 10px;
+  color: #fff;
+}
+
+.header-connect p {
+  padding-top: 30px;
+}
+
+.svg-button {
+  width: 23px;
+  height: 20px;
+  margin-top: 30px;
+  transition: transform 0.3s ease;
+}
+
+.svg-button:hover {
+  transform: scale(1.5);
+}
+
+.header-controls {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.icon-search {
+  position: absolute;
+  transform: translateX(-1060px) translateY(-31px);
+}
+
+.header-controls input[type='text'] {
+  width: 254px;
+  height: 41px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  opacity: 1;
+  text-indent: 35px;
+}
+
+#search::placeholder {
+  padding-top: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.07px;
+  color: #2b2b2b;
+}
+
+#search:focus::placeholder {
+  opacity: 0;
+}
+
+.header-controls .icon-search {
+  top: 45px;
+  left: 1077px;
+  width: 19px;
+  height: 19px;
+  background: transparent;
+  opacity: 1;
+}
+
+.header-controls ul {
+  padding-top: 10px;
+}
+
+.header-controls ul img:first-child {
+  margin-left: 35px;
+}
+
+.header-controls-btn {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.header-controls-btn:hover {
+  transform: scale(1.5);
+}
+
+.header-primary {
+  display: flex;
+  background-color: #2b2b2b;
+}
+
+.header-primary ul {
+  display: flex;
+  align-items: center;
+  gap: 148px;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 26px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: lighter;
+}
+
+.header-primary a {
+  color: #fff;
+}
+
+.header-primary a:hover {
+  color: goldenrod;
+}
+
+.header-primary ul li {
+  transition: transform 0.3s ease;
+}
+
+.header-primary li:hover {
+  transform: scale(1.05);
+}
+
 /* ./header */
 
 /* main */
+
+hr.new1 {
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.home-catalog-products {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.home-catalog-products picture a img {
+  width: 451px;
+  height: 380px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 21px;
+}
+
+.home-catalog-preview p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.image-link {
+  position: relative;
+  display: inline-block;
+}
+
+.heart-btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  opacity: 1;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.home-content {
+  display: flex;
+}
+
+.home-content .story {
+  display: block;
+  text-align: center;
+  max-width: 810px;
+  margin-left: 160px;
+}
+.home-content h2 {
+  font-size: 50px;
+  padding-top: 16px;
+  margin-bottom: 120px;
+  padding-left: 200px;
+}
+
+.home-content aside img {
+  width: 888px;
+  height: 888px;
+}
+
+.home-content p {
+  padding-left: 200px;
+  font-size: 32px;
+  text-align: justify;
+  margin-bottom: 120px;
+}
+
+h2.mens {
+  text-transform: uppercase;
+}
+
+.catalog-ctas {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 72px;
+}
+
+.catalog-ctas button {
+  background-color: transparent;
+  font-size: 22px;
+  letter-spacing: 1px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
 /* ./main */
 
 /* footer */
@@ -328,7 +572,13 @@ body {
 
 .footer-social a img {
   width: 23px;
-  height: 16px;
+  height: 23px;
   opacity: 1;
+  transition: transform 0.3s ease;
 }
+
+.footer-social img:hover {
+  transform: scale(1.5);
+}
+
 /* ./footer */
