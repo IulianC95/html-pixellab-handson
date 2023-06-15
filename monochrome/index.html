@@ -11,12 +11,17 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
+  <link
+    rel="icon"
+    href="img/icon.png"
+    type="image/png"
+  >
   <title>Monochrome</title>
 
   <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet"
-  />
+  >
 
   <link
     rel="stylesheet"
@@ -26,47 +31,47 @@
 
 <body>
   <header class="header">
-    <section class="header-secondary">
-      <div class="header-secondary-inner container">
+    <section class="header-secondary container">
+      <div class="header-secondary-inner">
         <div class="header-connect">
           <ul>
             <a
               href=""
-              title=""
+              title="Youtube"
             >
               <img
                 src="img/youtube.svg"
-                alt=""
+                alt="Youtube"
                 class="svg-button"
               />
             </a>
             <a
               href=""
-              title=""
+              title="Twitter"
             >
               <img
                 src="img/twitter.svg"
-                alt=""
+                alt="Twitter"
                 class="svg-button"
               />
             </a>
             <a
               href=""
-              title=""
+              title="Facebook"
             >
               <img
                 src="img/facebook.svg"
-                alt=""
+                alt="Facebook"
                 class="svg-button"
               />
             </a>
             <a
               href=""
-              title=""
+              title="Instagram"
             >
               <img
                 src="img/instagram.svg"
-                alt=""
+                alt="Instagram"
                 class="svg-button"
               />
             </a>
@@ -78,56 +83,58 @@
 
         <div class="header-controls">
 
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="icon-search"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+          <form>
+            <button type="submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon-search"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </button>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search"
             />
-          </svg>
-
-
-          <input
-            type="text"
-            name="search"
-            id="search"
-            placeholder="Search"
-          />
+          </form>
           <ul>
             <a
               href=""
-              title=""
+              title="Account"
             >
               <img
                 src="img/user.svg"
-                alt=""
+                alt="Account"
                 class="header-controls-btn"
               />
             </a>
             <a
               href=""
-              title=""
+              title="Liked Items"
             >
               <img
                 src="img/heart.svg"
-                alt=""
+                alt="Liked items"
                 class="header-controls-btn"
               />
             </a>
             <a
               href=""
-              title=""
+              title="Cart"
             >
               <img
                 src="img/cart.svg"
-                alt=""
+                alt="Cart"
                 class="header-controls-btn"
               />
             </a>
@@ -182,12 +189,12 @@
   </header>
   <!-- ./header -->
 
-  <main>
-    <div class="home-catalog-preview container">
-
-      <hr class="new1" />
-      <h2>New Stuff</h2>
-
+  <main class="container">
+    <div class="home-catalog-preview">
+      <header>
+        <hr class="new1" />
+        <h2>New Stuff</h2>
+      </header>
       <section class="home-catalog-products">
         <picture>
           <a
@@ -196,7 +203,8 @@
           >
             <img
               src="img/watch5.png"
-              alt=""
+              alt="watch 5"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -226,7 +234,8 @@
           >
             <img
               src="img/watch1.png"
-              alt=""
+              alt="Watch 1"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -238,10 +247,11 @@
                 viewBox="0 0 16 16"
               >
                 <path
-                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+                  d="M8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
                 />
               </svg>
             </button>
+
           </a>
           <h3>MONOCHROME</h3>
           <p>$425</p>
@@ -253,7 +263,8 @@
           >
             <img
               src="img/watch2.png"
-              alt=""
+              alt="Watch 2"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -280,7 +291,8 @@
           >
             <img
               src="img/watch3.png"
-              alt=""
+              alt="Watch 3"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -301,15 +313,45 @@
           <p>$425</p>
         </picture>
       </section>
+      <footer>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 right"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 left"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
 
+      </footer>
     </div>
     <!-- ./home-catalog-preview -->
 
-    <div class="home-catalog-preview container">
-
-      <hr class="new1" />
-      <h2>Most Loved</h2>
-
+    <div class="home-catalog-preview">
+      <header>
+        <hr class="new1" />
+        <h2>Most Loved</h2>
+      </header>
       <section class="home-catalog-products">
         <picture>
           <a
@@ -318,7 +360,8 @@
           >
             <img
               src="img/watch3.png"
-              alt=""
+              alt="Watch 3"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -348,7 +391,8 @@
           >
             <img
               src="img/watch5.png"
-              alt=""
+              alt="Watch 5"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -375,7 +419,8 @@
           >
             <img
               src="img/watch2.png"
-              alt=""
+              alt="Watch 2"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -402,7 +447,8 @@
           >
             <img
               src="img/watch4.png"
-              alt=""
+              alt="Watch 4"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -423,15 +469,45 @@
           <p>$425</p>
         </picture>
       </section>
+      <footer>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 right"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 left"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
 
+      </footer>
     </div>
     <!-- ./home-catalog-preview -->
 
-    <div class="home-content container">
+    <div class="home-content">
 
       <aside><img
           src="img/img1.png"
-          alt=""
+          alt="Presentation image"
         /></aside>
 
       <section class="story">
@@ -458,11 +534,11 @@
     </div>
     <!-- ./home-content -->
 
-    <div class="home-catalog-preview container">
-
-      <hr class="new1" />
-      <h2 class="mens">Men's</h2>
-
+    <div class="home-catalog-preview">
+      <header>
+        <hr class="new1" />
+        <h2 class="mens">Men's</h2>
+      </header>
       <section class="home-catalog-products">
         <picture>
           <a
@@ -471,7 +547,8 @@
           >
             <img
               src="img/watch4.png"
-              alt=""
+              alt="Watch 4"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -501,7 +578,8 @@
           >
             <img
               src="img/watch2.png"
-              alt=""
+              alt="Watch 2"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -528,7 +606,8 @@
           >
             <img
               src="img/watch6.png"
-              alt=""
+              alt="Watch 6"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -555,7 +634,8 @@
           >
             <img
               src="img/watch5.png"
-              alt=""
+              alt="Watch 5"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -576,21 +656,51 @@
           <p>$425</p>
         </picture>
       </section>
+      <footer>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 right"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 left"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
 
-      <div class="catalog-ctas">
-        <button>
-          view all
-        </button>
-      </div>
 
+        <div class="catalog-ctas">
+          <button type="button">
+            view all
+          </button>
+        </div>
+      </footer>
     </div>
     <!-- ./home-catalog-preview -->
 
-    <div class="home-catalog-preview container">
-
-      <hr class="new1" />
-      <h2 class="mens">Women's</h2>
-
+    <div class="home-catalog-preview">
+      <header>
+        <hr class="new1" />
+        <h2 class="mens">Women's</h2>
+      </header>
       <section class="home-catalog-products">
         <picture>
           <a
@@ -599,7 +709,8 @@
           >
             <img
               src="img/watch3.png"
-              alt=""
+              alt="Watch 3"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -629,7 +740,8 @@
           >
             <img
               src="img/watch5.png"
-              alt=""
+              alt="Watch 5"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -656,7 +768,8 @@
           >
             <img
               src="img/watch1.png"
-              alt=""
+              alt="Watch 1"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -683,7 +796,8 @@
           >
             <img
               src="img/watch8.png"
-              alt=""
+              alt="Watch 8"
+              class="hover-animation"
             />
             <button class="heart-btn">
               <svg
@@ -705,11 +819,43 @@
         </picture>
       </section>
 
-      <div class="catalog-ctas">
-        <button>
-          view all
-        </button>
-      </div>
+      <footer>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 right"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6 left"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+
+
+        <div class="catalog-ctas">
+          <button>
+            view all
+          </button>
+        </div>
+      </footer>
 
     </div>
     <!-- ./home-catalog-preview -->
@@ -735,14 +881,7 @@
               email customer care
             </a>
           </li>
-          <li>
-            <a
-              href="/"
-              title="Mobile version"
-            >
-              see mobile version
-            </a>
-          </li>
+
         </ul>
       </section>
       <!-- ./footer-contact -->
@@ -780,14 +919,6 @@
               title="exchanges & returns"
             >
               exchanges & returns
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              title="terms & conditions"
-            >
-              terms & conditions
             </a>
           </li>
         </ul>
@@ -835,6 +966,7 @@
             type="email"
             name="email"
             id="email"
+            placeholder="Email"
           />
           <button type="submit"><span>submit</span></button>
         </form>
@@ -843,41 +975,41 @@
         <div class="footer-social">
           <a
             href=""
-            title=""
+            title="Youtube"
           >
             <img
               src="img/youtube-blk.svg"
-              alt=""
+              alt="Youtube"
               class="yt-btn"
             />
           </a>
           <a
             href=""
-            title=""
+            title="Twitter"
           >
             <img
               src="img/twitter-blk.svg"
-              alt=""
+              alt="Twitter"
               class="tw-btn"
             />
           </a>
           <a
             href=""
-            title=""
+            title="Facebook"
           >
             <img
               src="img/facebook-blk.svg"
-              alt=""
+              alt="Facebook"
               class="fb-btn"
             />
           </a>
           <a
             href=""
-            title=""
+            title="Instagram"
           >
             <img
               src="img/instagram-blk.svg"
-              alt=""
+              alt="Instagram"
               class="ig-btn"
             />
           </a>
@@ -890,6 +1022,7 @@
   </footer>
 
   <!-- ./footer -->
+  <script src="app.js"></script>
 </body>
 
 </html>
